@@ -1,0 +1,297 @@
+main {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: aliceblue;
+    text-align: center;
+}
+aside{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 30%;
+    height: 50px;
+    font-size: 50px;
+    color: #e6e782;
+    padding: 5px;
+}
+.read-me{
+    line-height: 20px;
+    width: 100%;
+    max-height: 70%;
+    height: 100%;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+} 
+.aparelhos{
+    background-color: #e6e782;
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techs{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.tecnologias{
+    width: 100%;
+    height: 100%;
+    color:#92f558 ;
+    font-size:40px;
+}
+.cards-conteiner{
+    width: 100%;
+    max-height: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    width: 100%;
+    height: 100%;
+}
+.certificados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    gap: 10px;
+    font-size: 50px;
+} 
+main .principais ,.complementares ,.eventos{
+    text-align: center;
+    color: #92f558;
+    border: solid 3px #f2f3b3;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.principais:hover{
+    border: solid 3px #f1f516;
+    transition: 0.2s;
+}
+.complementares:hover{
+    border: solid 3px #f1f516;
+    transition: 0.2s;
+}
+.eventos:hover{
+    border: solid 3px #f1f516;
+    transition: 0.2s;
+} 
+h3{
+    padding: 5px;
+    font-size: 50px;
+    line-height: 50px;
+    padding-bottom: 10px;
+    color: #e6e782;
+    letter-spacing: 2px;
+}
+h4{
+    font-size: 25px;
+    color: #92f558;
+}
+.cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+.nome-curso{
+    font-size: 15px;
+    color: #9bd47a;
+    width: 100%;
+    text-align: left;
+}
+.nome-curso:hover{
+    color:#f1f516;
+    transition:0.2s;
+}
+section .cursos .principais  div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 5px;
+} 
+section .cursos .complementares div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 5px;
+} 
+section .cursos .eventos div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 5px;
+} 
+.link-check{
+    color: #fff;
+    font-size: 30px;
+}
+.link-check:hover{
+    color: #f1f50c;
+    font-size: 30px;
+}
+.complemento{
+    color:#fff;
+    font-size: 30px;
+}
+.complemento:hover{
+    color: #f05f0b;
+    transition: 0.2s;
+}
+.evento{
+    color: #fff;
+    font-size: 30px;
+}
+.evento:hover{
+    color: #4dc8f8;
+    transition: 0.2s;
+}
+.cards-conteiner .card{
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    border: 3px solid  #92f558;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.cards-conteiner .card:hover {
+    border-color: 3px solid #92f558 ;
+    box-shadow: 0px 0px 8px color, #f2f3b3; 
+    transition:0.3s ease-in-out;
+    cursor: pointer;
+}
+main .techs .cards-conteiner .card img{
+    width: 100%;
+}
+.techs .cards-conteiner  div .card:hover{
+    box-shadow: 0px 0px 8px color, #f2f3b3; 
+    transition:0.3s ease-in-out;
+    cursor: pointer;
+    border-color: 10px #f2f3b3 solid;
+}
+main .card:hover{
+    transition:0.3s ease-in-out;
+    cursor: pointer;
+    border-color: 10px #f2f3b3 solid;
+}
+main figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main figure img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 8px  #f1f516 solid;
+}
+main figure img:hover{
+    box-shadow: 0px 0p 8px #92f558 ;
+    transition:0.3s ;
+    cursor: pointer;
+    border-color: solid 3px #92f558 ;
+    color: #92f558 ;
+}
+.foto{
+    width: 100%;
+    max-height: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.icons{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 150px;   
+} 
+.icon{  
+    font-size: 2em;
+    color: #1263be;
+}
+.icon:hover{
+    color: #92f558;
+    transition: 0.2s;
+}
+figcaption{
+    font-size: 30px;
+    color: #1263be;
+    display: flex;
+    gap: 20px;
+}
+.whats{
+    font-size: 30px;
+    color:#1263be;
+}
+.whats:hover{
+    color:#92f558;
+    transition: 0.2s
+}
+.dimi{
+    border-color: #f1f516;
+    width: 350px;
+    height: 350px;
+}
+.dimi:hover {
+   border-color: #92f558;
+}

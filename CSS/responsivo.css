@@ -1,0 +1,534 @@
+@media(max-width:1310px){
+.redes-de-contato{
+    max-width: 25%;
+}
+.text{
+    gap: 10px;
+}
+.read-me{
+        line-height: 25px;
+        width: 100%;
+        height: 100%;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+    } 
+    .cards-conteiner .card{
+        width: 70px;
+        height: 70px;
+        padding: 15px;
+        background-color: aliceblue;
+        border-radius: 8px;
+        border: 3px solid  #92f558;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+    main figure img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 8px  #f1f516 solid;
+    }
+    .dimi{
+        border-color: #f1f516;
+        width: 290px;
+        height: 290px;
+    }
+    footer{
+        height: 5%;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+    }
+}
+    @media(max-width:1220px){
+        main{
+            padding: none;
+        }
+        .sobre{
+            font-size: 40px;
+            padding-bottom: 20px;
+        }
+        .read-me{
+            line-height:25px;
+            width: 100%;
+            height: 100%;
+            font-weight: 300;
+            font-size: 20px;
+            padding: 0px;
+            text-align: center;
+        } 
+        .tecnologias{
+            font-size:40px;
+        }
+        .certificados{
+            padding: 0px;
+            gap: 0px;
+            font-size: 40px;
+        }
+        .cursos{
+            gap: 2px;
+        }
+        .foto{
+            gap: none;
+            padding: none;
+        } 
+        main figure img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 8px  #f1f516 solid;
+        }
+        .dimi{
+            border-color: #f1f516;
+            width: 250px;
+            height: 250px;
+        }
+        footer{
+            padding: 0px;
+        }
+    }
+    @media(max-width:1075px){
+        header{
+            position: fixed;
+            z-index: 10;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        header h1{
+            font-size: 40px;
+        }
+        .navegacao{
+            display: contents;
+        }  
+        body{
+            scroll-behavior: smooth;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }  
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width:100%;
+            max-height: 100%;
+            height: 100%;
+            padding: none;
+            gap: 20px;
+           
+        }
+        .main-content{
+            width: 100%;
+            height:100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;    
+            padding-top: 16%;     
+           
+        }
+        #div-content::after{
+            content: " ";
+            background-image: url(../img/fotodimi1.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 150px;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        #div-content::before{
+            content: " ";
+            background-image: url(../img/fotodimi2.jpg);
+            background-position: left;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 150px;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            right: 0;
+            overflow: hidden;
+        }
+        article{
+            width: 100%;
+            height: 70vh;
+        }
+        .text{
+            max-width: 50%;
+            width: 50%;
+        }
+        .sobre{
+            font-size: 50px;
+            text-align: center;
+            padding: 10px;
+        }
+        .read-me{
+            line-height: 20px;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            width: 100%;
+            height: 100%;
+            font-weight: 300;
+            font-size: 20px;
+            padding: 5px;
+            text-align: center;
+            padding: none;
+        } 
+        aside{
+            width: 100%;
+            height: 30vh;
+        }
+        .techs{
+            max-width: 50%;
+            width: 100%;
+        }
+        .tecnologias{
+            font-size: 50px;
+            height: 30%;
+        }
+        .cards-conteiner{
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+        }
+        .cards-conteiner .card{
+            width: 100px;
+            height: 100px;
+            padding: 20px;
+            background-color: aliceblue;
+            border-radius: 8px;
+            border: 3px solid  #92f558;
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .certificados{
+            width: 100%;
+            height: 100vh;
+            padding-top: 16%; 
+        }
+        h3{
+            font-size: 80px;
+            width: 100%;
+            max-height: 20vh;
+            height: 100%;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 50px;
+            padding-bottom: 0px;
+            color: #e6e782;
+        }
+        .cursos{
+            width: 100%;
+            max-height: 80vh;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main .principais ,.complementares ,.eventos{
+            text-align: center;
+            color: #92f558;
+            border: solid 3px #f2f3b3;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        main figure img {
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 8px  #f1f516 solid;
+            padding: 0px;
+        }
+        .dimi{
+            border-color: #f1f516;
+            width: 350px;
+            height: 350px;
+        }
+        .foto{
+            width: 100%;
+            max-height: 100vh;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 16%; 
+        }
+        figcaption{
+            display: flex;
+            gap: 20px;
+        }
+        .whats{
+            font-size: 30px;
+            color: #1263be;
+        }
+        .whats:hover{
+            color:#92f558;
+            transition: 0.2s
+        }
+        footer{
+          width: 100%;
+          height: 10vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }  
+        .pfooter{
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+        }       
+}
+@media(max-width:800px){
+  .cards-conteiner .card{
+    width:100px;
+    height: 100px;
+    padding: 15px;
+}
+}
+@media(max-width:625px){
+    header{
+        justify-content: center;
+        gap: 20px;
+    }
+    header h1{
+        font-size: 35px;
+    }
+    .redes-de-contato{
+        justify-content: center;
+        gap: 10px;
+    }
+    .rede{ 
+        display: flex;
+        color: #e6e782 ;
+        font-size: 2em;
+    }
+    .main-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+    .sobre{
+        font-size: 50px;
+    }
+    #div-content::after{
+       display: none;
+    }
+    #div-content::before{
+        display: none;
+    }
+    article{
+        height: 70%;
+        width: 100%;
+    }
+    .main-content article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 480px;
+        width: 100%;
+        height: 60%;
+    }
+    .read-me{
+        width: 100%;
+        height: 100%;
+        line-height: 25px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        font-weight: 200;
+        font-size: 18px;
+        padding-top: 20px;
+        text-align:center;
+    } 
+    .techs{
+        max-width: 480px;
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+    .tecnologias{
+        text-align: center;
+        font-size: 45px;
+        gap: none;
+    }
+    .cards-conteiner{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .cards-conteiner .card{
+        width:100px ;
+        height: 100px;
+        padding: 20px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    .cursos{
+        width: 50%;
+        height: 100%;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .link-cheched{
+        font-size: 25px;
+    }
+    .complemento{
+        font-size: 25px;
+    }
+    .evento{
+        font-size: 25px;
+    }
+    .pfooter{
+        font-size: 10px;
+    }
+}
+@media(max-width:500px){
+    header{
+        justify-content: center;
+        align-items: center;
+        padding: none;
+    }
+    h1{
+        font-size: 25px;
+        font-weight: 600;
+        padding: none;
+        gap: none;
+    }
+    .rede{
+        font-size: 1.5em;
+    }
+    .main-content article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 480px;
+        width: 100%;
+        height: 60%;
+    }
+    .read-me{
+        line-height: 25px;
+        padding-top: none;
+    }
+    aside .techs{
+        max-width: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+     .card img{
+        width:100%;
+        height:100%;
+      }
+      .main-content .tecnologias{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        width: 100%;
+        max-height: 60px;
+        height: 100%;
+        font-size: 50px;
+    }
+      .main-content .techs section .cards-conteiner{ 
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 480px;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .cards-conteiner{
+          max-width: 350px;
+         width: 350px;
+    }
+    .certificados{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cursos{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items:baseline ;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        max-width: 350px;
+        max-height: 350px;
+    }
+    main figure img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 8px  #f1f516 solid;
+        padding: 0px;
+    }
+    .dimi{
+        border-color: #f1f516;
+        width: 250px;
+        height: 250px;
+    } 
+    .foto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .pfooter{
+        text-align: center;
+    }
+    }
+    @media(max-width:380px){
+        
+        .sobre{
+            margin-top: 15%;
+        }
+        article .read-me{
+            padding-top: 0px;
+            padding: 0px;
+            line-height: 20px;
+        }
+        .techs{
+            max-height: 30%;
+        }
+        .text{
+            max-height: 60%;
+            align-items: end;
+        }
+        
+    }
+
